@@ -1,0 +1,41 @@
+\newif\iftablet    %\tablettrue % format for tablets/screen
+\newif\ifcalli     \callitrue  % calligraphy for letters
+\newif\ifaudio     \audiotrue  % link for audio files
+
+
+\iftablet
+\documentclass[12pt]{book}
+\else
+\documentclass[twoside,12pt]{book}
+
+\fi
+
+\title{Tine De Booij}
+
+\input{DASTpackages}
+\input{DASTmacros}
+\input{DASTmeta}
+
+\begin{document}
+
+\selectlanguage{english}
+\pagestyle{empty}
+%test\newpage
+\input{titelpage}\iftablet \newpage \else \cleardoublepage \fi
+
+\pagestyle{fancy}
+\pagenumbering{roman}
+\tableofcontents \iftablet \newpage \else \cleardoublepage \fi 
+% XXX Wenn du kein Inhaltsverzeichnis haben möchtest, kannst du diese Zeile ab \tableofcontents löschen.
+
+\pagenumbering{arabic}
+\input{DASTsec}
+
+% XXX Setze vor die Teile, die nicht im PDF auftauchen sollen, ein %. Dadurch wird die ganze Zeile blau. Der Code wird nicht mehr gelesen.
+\input{Inhalt/01 - Inleiding}
+\input{Inhalt/02 - Jeugd}
+
+
+
+
+\end{document}
