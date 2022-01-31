@@ -5,7 +5,7 @@ Ger-mers-heim Ca-me-na Lou-ana Ka-rin Ka-rolin Ma-nu-el }
 
 
 % babel
-\selectlanguage{english}
+\selectlanguage{dutch}
 
 % graphixs
 \graphicspath{{img/}}
@@ -67,20 +67,17 @@ Ger-mers-heim Ca-me-na Lou-ana Ka-rin Ka-rolin Ma-nu-el }
 \fancyhead[RO,CO,LO,RE,CE,LE]{ }
 
 \fancyhead[RO,LE]{\scriptsize\thepage}
-\fancyfoot[RE,LO]{{\scriptsize Dein Fußzeilentext -- identisch auf jeder linken Seite}} % XXX Hier änderst du den Fußzeilentext
+\fancyfoot[RE,LO]{{\scriptsize Tine De Booij - Een familieverhaal}}
 \fancyfoot[RO,LE]{\scriptsize\thepage}
- \fancyfoot[C]{{\color{ornament}\pgfornament[width=1cm]{69}}}
+\fancyfoot[C]{{\color{ornament}\pgfornament[width=1cm]{69}}}
 \fancyfoot[C]{{\color{ornament}\includegraphics[width=1cm]{tikz/69}}}
 
-
 \fancypagestyle{plain}{%
-\fancyfoot[RO,LE]{\scriptsize\thepage}
-\fancyhead[RO,LE]{\scriptsize\thepage}
-\fancyhead[CO]{}
-\fancyfoot[LO,CO]{}
+  \fancyfoot[RO,LE]{\scriptsize\thepage}
+  \fancyhead[RO,LE]{\scriptsize\thepage}
+  \fancyhead[CO]{}
+  \fancyfoot[LO,CO]{}
 }
-
-
 
 \titleformat{\part}
 {\hbox{\begin{minipage}{\textwidth}\color{ornament}
@@ -140,10 +137,11 @@ Ger-mers-heim Ca-me-na Lou-ana Ka-rin Ka-rolin Ma-nu-el }
 \def\quote{\begingroup \oldquote \flushleft }
 \def\endquote{\endflushleft \oldendquote \endgroup \bigskip}
 
+\setlength{\headheight}{25pt}
 
-
-
-
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
 
 \makeatletter
 
@@ -158,7 +156,8 @@ Ger-mers-heim Ca-me-na Lou-ana Ka-rin Ka-rolin Ma-nu-el }
 \makeatother
 
 
-
+% caption lenghts
+%\setlength\abovecaptionskip{-0.7\baselineskip}
 
 
 

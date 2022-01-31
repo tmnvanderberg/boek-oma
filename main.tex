@@ -2,7 +2,6 @@
 \newif\ifcalli     \callitrue  % calligraphy for letters
 \newif\ifaudio     \audiotrue  % link for audio files
 
-
 \iftablet
 \documentclass[12pt]{book}
 \else
@@ -10,7 +9,7 @@
 
 \fi
 
-\title{Tine De Booij}
+\title{Tine de Booij}
 
 \input{DASTpackages}
 \input{DASTmacros}
@@ -18,24 +17,27 @@
 
 \begin{document}
 
-\selectlanguage{english}
 \pagestyle{empty}
-%test\newpage
 \input{titelpage}\iftablet \newpage \else \cleardoublepage \fi
 
 \pagestyle{fancy}
 \pagenumbering{roman}
 \tableofcontents \iftablet \newpage \else \cleardoublepage \fi 
-% XXX Wenn du kein Inhaltsverzeichnis haben möchtest, kannst du diese Zeile ab \tableofcontents löschen.
 
 \pagenumbering{arabic}
 \input{DASTsec}
 
-% XXX Setze vor die Teile, die nicht im PDF auftauchen sollen, ein %. Dadurch wird die ganze Zeile blau. Der Code wird nicht mehr gelesen.
-\input{Inhalt/01 - Inleiding}
-\input{Inhalt/02 - Jeugd}
-
-
-
-
+\input{inhoud/01_inleiding}
+\input{inhoud/02_oudkarspel}
+\input{inhoud/03_ouders_en_voorouders}
+\input{inhoud/04_schoorldam}
+\input{inhoud/05_opleiding}
+\input{inhoud/06_london}
+\input{inhoud/07_werken_in_amsterdam}
+\input{inhoud/08_de_liefde}
+\input{inhoud/09_hilversum}
+\input{inhoud/10_doorn}
+\input{inhoud/11_valthe}
+\input{inhoud/12_reizen}
+\input{inhoud/13_leeuwarden}
 \end{document}

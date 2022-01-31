@@ -1,0 +1,16 @@
+\babel@toc {dutch}{}
+\babel@toc {dutch}{}
+\contentsline {chapter}{Inleiding}{3}{chapter*.3}%
+\contentsline {chapter}{Oudkarspel}{5}{chapter*.4}%
+\contentsline {chapter}{Ouders en Voorouders}{13}{chapter*.13}%
+\contentsline {chapter}{Schoorl en Schoorldam}{25}{chapter*.26}%
+\contentsline {chapter}{Opleiding}{31}{chapter*.30}%
+\contentsline {chapter}{London}{35}{chapter*.33}%
+\contentsline {chapter}{Werken in Amsterdam}{43}{chapter*.37}%
+\contentsline {chapter}{De liefde}{47}{chapter*.42}%
+\contentsline {chapter}{Hilversum, Den Haag, Dordrecht: kinderen}{55}{chapter*.49}%
+\contentsline {chapter}{Doorn}{65}{chapter*.57}%
+\contentsline {chapter}{Valthe en kleinkinderen}{75}{chapter*.65}%
+\contentsline {chapter}{Reizen}{81}{chapter*.71}%
+\contentsline {chapter}{Leeuwarden en achterkleinkinderen}{89}{chapter*.79}%
+\contentsfinish 
